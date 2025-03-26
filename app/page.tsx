@@ -18,7 +18,7 @@ export default function Home() {
         <div className="flex flex-col gap-4 border rounded-lg p-8 min-h-[450px] relative">
           <div className="flex items-center justify-between ">
             <h2 className="text-lg text-neutrals-900">ASU Button</h2>
-            <OpenInV0Button name="hello-world" className="w-fit" />
+            <OpenInV0Button name="button" className="w-fit" />
           </div>
           <div className="flex items-center justify-center min-h-[400px] relative">
             <Button>Click me</Button>
