@@ -12,9 +12,9 @@ const buttonVariants = cva(
         primary:
           "bg-neutrals-900 text-neutrals-00-white  focus-visible:bg-neutrals-700 hover:bg-neutrals-700 active:bg-neutrals-600 disabled:bg-neutrals-500",
         "primary-alt":
-          "bg-brand-500 border border-neutrals-900 text-primary-alt-button-text  focus-visible:bg-neutrals-700 focus-visible:text-neutrals-00-white hover:bg-neutrals-700 hover:text-neutrals-00-white active:bg-neutrals-600 active:text-neutrals-00-white disabled:bg-neutrals-100 disabled:text-neutrals-500 disabled:border-neutrals-500",
+          "bg-brand-500 text-primary-alt-button-text  focus-visible:bg-neutrals-700 focus-visible:text-neutrals-00-white hover:bg-neutrals-700 hover:text-neutrals-00-white active:bg-neutrals-600 active:text-neutrals-00-white disabled:bg-neutrals-100 disabled:text-neutrals-500",
         secondary:
-          "border border-neutrals-900 bg-background-transparent text-neutrals-900 hover:bg-neutrals-100 focus-visible:bg-neutrals-100 active:bg-neutrals-200 disabled:text-neutrals-500 disabled:border-neutrals-500",
+          "border bg-background shadow-sm hover:bg-accent hover:text-accent-foreground",
         text: "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
         "text-alt": "bg-background text-primary shadow-sm hover:bg-primary/90",
         ghost: "hover:bg-accent hover:text-accent-foreground",
